@@ -9,3 +9,12 @@
 # reffrence
         
 https://docs.oracle.com/javase/8/docs/api/
+
+https://books.trinket.io/thinkjava/chapter5.html
+
+https://beginnersbook.com/2013/12/java-string-charat-method-example/
+
+https://www.geeksforgeeks.org/check-if-a-number-is-multiple-of-5-without-using-and-operators/
+
+https://www.w3schools.com/java/
+
