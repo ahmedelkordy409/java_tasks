@@ -1,6 +1,12 @@
-import java.util.Scanner;  // Import the Scanner class
 
-class Main {
+/*
+Write a Java program that defines a function that calculates the following equation; then call it for 1,2,3,4,5‏
+
+*/
+
+
+
+class ThirdTask {
 
 /*************************************************
 *
