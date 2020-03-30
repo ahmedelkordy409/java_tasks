@@ -7,23 +7,31 @@ class Main {
 *
 *
 *************************************************/
- static int getEquation(int x) {
+ static int inputField(String message){
 
-    return (x^3)+(2*x^2)+(7*x)-(15);
+    Scanner input = new Scanner(System.in);  
+    System.out.println(message);
+    int userInput = input.nextInt(); 
+    return userInput;
   }
-
 
 
 
   public static void main(String[] args) {
 
 
-    for (int x = 1; x < 6; x++) {
+        int number = inputField("Enter The Number:  ");
 
-     int result = getEquation(x);
+        if(number % 2 == 0)
+        {
+            System.out.println("The given number "+number+" is Even ");
+        }
+        else
+        {
+            System.out.println("The given number "+number+" is Odd ");
+	      }
 
-     System.out.println("The equation result is: " + result);
 
-    }
+
   }
 }
