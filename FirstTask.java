@@ -1,6 +1,13 @@
 import java.util.Scanner;  // Import the Scanner class
 
-class Main {
+/*
+Write a Java program that accepts two numbers and adds them‏
+*/
+
+
+class FirstTask {
+
+
 /*************************************************
 *
 *
