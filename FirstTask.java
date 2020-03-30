@@ -5,7 +5,7 @@ Write a Java program that accepts two numbers and adds them‏
 */
 
 
-class FirstTask {
+public class FirstTask {
 
 
 /*************************************************
@@ -13,7 +13,7 @@ class FirstTask {
 *
 *
 *************************************************/
- static int sumTowNumber(int x, int y) {
+ static int getSum(int x, int y) {
     return x + y;
   }
 
@@ -45,7 +45,7 @@ class FirstTask {
      sceoundNumber = inputField("Enter Sceound Number....");
 
 
-     numberSum = sumTowNumber(firstNumber, sceoundNumber);
+     numberSum = getSum(firstNumber, sceoundNumber);
 
      System.out.println("The Sum is: " + numberSum);
 

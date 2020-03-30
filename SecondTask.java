@@ -1,6 +1,14 @@
 import java.util.Scanner;  // Import the Scanner class
 
-class Main {
+
+/*
+Write a java program that calculates the modulus of two numbers‏
+*/
+
+
+
+public class SecondTask {
+
 
 /*************************************************
 *
