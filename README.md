@@ -28,7 +28,7 @@ https://www.w3schools.com/java/
 @SuppressWarnings("unchecked")
 https://javarevisited.blogspot.com/2015/09/what-is-suppresswarnings-annotation-in-java-unchecked-raw-serial.html
 
-
+https://howtodoinjava.com/library/json-simple-read-write-json-examples/
 
 
 
