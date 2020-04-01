@@ -40,3 +40,31 @@ Effective Java (2nd Edition) 2nd Edition
 https://www.amazon.com/dp/0321356683?creativeASIN=0321356683&linkCode=w61&imprToken=RBJvgXqfij2miexFAaLJ3w&slotNum=1&tag=javamysqlanta-20
 
 
+
+
+
+
+
+
+
+
+
+
+
+I use this kind of pattern often. It's very compact:
+
+// Define a constant in your class. Use a HashSet for performance
+private static final Set<Integer> values = new HashSet<Integer>(Arrays.asList(12, 16, 19));
+
+// In your method:
+if (values.contains(x)) {
+    ...
+}
+A HashSet is used here to give good look-up performance - even very large hash sets are able to execute contains() extremely quickly.
+
+If performance is not important, you can code the gist of it into one line:
+
+if (Arrays.asList(12, 16, 19).contains(x))
+but know that it will create a new ArrayList every time it executes.
+
+https://stackoverflow.com/questions/7604814/best-way-to-format-multiple-or-conditions-in-an-if-statement-java
